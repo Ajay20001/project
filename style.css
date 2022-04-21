@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav{
+    display: inline-flex;
+    margin: 20px 10%;
+}
+
+.end_nav {
+    position:absolute;
+    right:10%;
+}
+
+.child_end_nav{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.child_end_nav > li{
+    justify-content: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.child_end_nav > li:hover{
+    cursor: pointer;
+    color: #143da6;
+}
+
+.border{
+    border-bottom: 5px solid #143da6;
+}
+
+.img_url{
+    background-image: url('https://kce.ac.in/new/wp-content/uploads/2020/11/campuslife.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20% 0%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -50px;
+}
+
+.child_card{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-top: 4px solid #143da6;
+}
+
+.child_card>h4{
+    text-transform:uppercase;
+    color: #fe5401;
+    margin-bottom: 7px;
+}
+
+.child_card:hover{
+    background-color: #143da6;
+    color: white;
+    transition: 0.5s;
+}
+
+.about-card{
+    margin: 50px 11%;
+}
+
+.txt-size{
+    font-size: 45px;
+    color: #002147;
+}
+
+.row{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.col-1{
+    width: 30%;
+}
+
+.col-1>p{
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 32px;
+}
+
+.col-2{
+    width: 40%;
+}
+
+.col-2>img:hover{
+    box-shadow: 7px 7px 4px rgba(17, 3, 3, 0.637);
+    transition: 0.5s;
+    justify-content: center;
+}
+
+.col-3{
+    width: 30%;
+    background-color: #fe7702;
+}
+
+.row-list{
+    border-top: 5px #143da6 solid;
+    list-style: none;
+    text-align: center;
+    justify-content:center;
+    padding-top: 50px;
+}
+
+.row-border{
+    border-top:1px solid #ffff;
+    border-bottom: none;
+    margin: 10px 50px;
+}
+
+.row-list >li{
+    cursor: pointer;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.row-list >li:hover{
+    color: #143da6;
+    transition: 0.3s;
+}
+
+.placement-img{
+    margin: 40px 0;
+}
+
+.footer{
+    border-top: 5px solid #143da6;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    color: #fe5401;
+}
+
+.footer>div:hover{
+    color: #143da6;
+    transition: 0.5s;
+    text-shadow: 6px 6px 5px #001227;
+    margin-top: -5px;
+}
+
+footer>h4{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
